@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-weight: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #F4F4F4;
+}
+button,
+input {
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.wrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+.clearfix {
+  clear: both;
+}
+.header {
+  height: 40px;
+  background: #F5F5F5;
+  line-height: 30px;
+}
+.logo-search {
+  height: 120px;
+  background-color: #fff;
+}
+.logo-search .logo {
+  float: left;
+  width: 190px;
+  height: 120px;
+}
+.logo-search .search {
+  float: right;
+  width: 1000px;
+  height: 120px;
+}
+.nav {
+  clear: both;
+  height: 40px;
+  background-color: orange;
+  line-height: 30px;
+}
+.nav .nav-items {
+  position: relative;
+}
+.nav .nav-items .list {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 190px;
+  height: 522px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.banner-sider .banner-content .banner {
+  margin-left: 200px;
+  width: 690px;
+  height: 522px;
+  float: left;
+}
+.banner-sider .user-sider {
+  background-color: #fff;
+  width: 290px;
+  height: 512px;
+  margin-top: 10px;
+  float: right;
+  box-sizing: border-box;
+}
+.ads {
+  margin-top: 10px;
+  height: 90px;
+}
+.items {
+  margin-top: 10px;
+  height: 570px;
+}
+.footer {
+  margin-top: 10px;
+  height: 270px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

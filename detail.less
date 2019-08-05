@@ -1,0 +1,293 @@
+.detail{
+  width: 1190px;
+  .detail-left{
+    margin-top: 10px;
+    width: 860px;
+    float: left;
+    .detail-header{
+      background: #fff;
+      height: 421px;
+      .bread-nav{
+        padding: 14px 0;
+        margin: 0 14px;
+        .focus{
+          color: #9D9D9D;
+        }
+      }
+      .project-info{
+        .project-info-left{
+          margin: 0 14px;
+          float: left;
+          .big-img{
+            width: 320px;
+            height: 254px;
+            margin: 0 0 14px 0;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .small-img{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            .img-focus{
+              border:2px solid #FF9800;
+            }
+            img{
+              width: 50px;
+              height: 50px;
+              margin: 0 auto;
+            }
+            .prev{
+              width: 29px;
+              height: 50px;
+              background-color: rgba(0,0,0,.2);
+              order: -1;
+            }
+            .prev:after{
+              content: ' ';
+              width: 20px;
+              height: 20px;
+              background: url(./icons/icon-arrow.png);
+              background-size: 100%;
+              position: absolute;
+              top: 15px;
+              left: 4px;
+              transform:rotate(180deg);
+              -ms-transform:rotate(180deg); 
+              -moz-transform:rotate(180deg); 	
+              -webkit-transform:rotate(180deg); 
+              -o-transform:rotate(180deg); 	
+            }
+            .next{
+              width: 29px;
+              height: 50px;
+              background-color: rgba(0,0,0,.2);
+            }
+            .next:after{
+              content: ' ';
+              width: 20px;
+              height: 20px;
+              background: url(./icons/icon-arrow.png);
+              background-size: 100%;
+              position: absolute;
+              top: 15px;
+              right: 4px;
+            }
+          }
+        }
+        .project-info-right{
+          margin: 0 0 0 10px;
+          float: left;
+          .title{
+            margin: 0 0 23px 0;
+            height: 24px;
+            line-height: 24px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #FF9800;
+          }
+          .content{
+            margin: 0 0 20px 0;
+          }
+          .title:before{
+            content: ' ';
+            display: inline-block;
+            margin-right: 13px;
+            width: 24px;
+            height: 24px;
+            position: relative;
+            background: url(./icons/icon-mingpian.png) no-repeat center;
+            background-size: 100%;
+          }
+          .company-info-title:before{
+            content: ' ';
+            display: inline-block;
+            margin-right: 13px;
+            width: 24px;
+            height: 24px;
+            position: relative;
+            background: url(./icons/icon-jianzhuwu.png) no-repeat center;
+            background-size: 100%;
+          }
+          .company-info-content{
+            div{
+              margin: 8px 0;
+            }
+          }
+          .getfile{
+            padding:15px 58px;
+            background: #FF9800;
+            color: #fff;
+            border-radius: 5px;
+            margin-top: 32px;
+          }
+        }
+      }
+    }
+    .detail-nav{
+      margin-top: 10px;
+      background: #fff;
+      height: 65px;
+      line-height: 62px;  
+      text-align: center;
+      .detail-nav-item{
+        width: 200px;
+        display: inline-block;
+      }
+      .item-focus{
+        border-bottom: 3px solid #FF9800;
+        box-sizing: border-box;
+      }
+    }
+    .detail-content{
+      margin-top:10px;
+      background: #fff;
+      height: 600px;
+      padding: 10px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .detail-right{
+    margin-top: 10px;
+    width: 320px;
+    float: right;
+    .detail-guess-like{
+      background: #fff;
+      height: 600px;
+      .guess-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px;
+        height: 24px;
+        line-height: 24px;
+        .like:before{
+          content: ' ';
+          display: inline-block;
+          margin-right: 14px;
+          width: 24px;
+          height: 24px;
+          position: relative;
+          bottom: -5px;
+          background: url(./icons/icon-like.png) no-repeat center;
+          background-size: 100%;
+        }
+        .change{
+          color: #BFBEBE;
+          cursor: pointer;
+        }
+        .change:before{
+          content: ' ';
+          display: inline-block;
+          margin-right: 14px;
+          width: 24px;
+          height: 24px;
+          position: relative;
+          bottom: -5px;
+          background: url(./icons/icon-xunhuan.png) no-repeat center;
+          background-size: 100%;
+        }
+      }
+      .guess-content{
+        .guess-content-item{
+          position: relative;
+          img{
+            width: 292px;
+            display: block;
+            margin: 15px auto 0 auto;
+            height: 155px;
+            overflow: hidden;
+          }
+          .img-content{
+            position: absolute;
+            bottom:0;
+            left:14px;
+            width: 272px;
+            background: rgba(255,255,255,.8);
+            color: red;
+            padding: 10px;
+          }
+        }
+      }
+    }
+    .detail-information,.detail-topic{
+      background: #fff;
+      height: 308px;
+      .information-title{
+        margin: 14px;
+        padding: 14px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .information-item{
+          width: 68px;
+          height: 36px;
+          display: inline-block;
+        }
+        .item-focus{
+          color: #FF9800;
+          border-bottom: 2px solid #FF9800;
+        }
+      }
+      .information-content{
+        margin: 0 14px;
+        font-size: 14px;
+        p{
+          margin: 10px 0;
+        }
+      }
+    }
+    .detail-topic{
+      background: #fff;
+      height: 308px;
+    }
+    .detail-knowledge{
+      margin-top: 14px;
+      background: #fff;
+      height: 208px;
+      .knowledge-title{
+        margin: 0 14px;
+        padding: 14px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .title:before{
+          content: ' ';
+          display: inline-block;
+          position: relative;
+          margin-right: 14px;
+          top: 7px;
+          width: 24px;
+          height: 24px;
+          background: url(./icons/icon-zhishi.png) no-repeat center center;
+          background-size: 100%;
+        }
+        .more{
+          color: #9D9D9D;
+        }
+      }
+      .knowledge-content{
+        margin: 0 14px;
+        font-size: 14px;
+        .content-item{
+          color: #9D9D9D;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}

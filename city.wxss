@@ -1,0 +1,54 @@
+.city-wrap {
+  background: #fff;
+}
+.city-container {
+  width: 1190px;
+  margin: 15px auto;
+  background: #fff;
+}
+.city-container .city-container {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: 0 auto;
+}
+.city-container .city-container a {
+  display: block;
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+.city-container .city-fixed .city-title {
+  font-size: 18px;
+  color: orange;
+  margin: 10px;
+  padding-top: 10px;
+}
+.city-container .city-fixed .list-city .letters {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.city-container .city-fixed .list-city .letters a {
+  display: block;
+  margin: 0 15px;
+}
+.city-container .city-fixed .line {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.city-container .city-letter-list {
+  margin-top: 10px;
+}
+.city-container .city-letter-list .letter .letter-title {
+  height: 30px;
+  line-height: 30px;
+  background: #eee;
+  margin: 10px;
+  padding: 0 10px;
+}
